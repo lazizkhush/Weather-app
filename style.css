@@ -1,0 +1,69 @@
+body{
+  background-color: rgb(34, 34, 34);
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.search-box{
+  background-color: rgb(58, 58, 58);
+  display: flex;
+  margin: 50px auto 20px;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  padding: 29px;
+  
+}
+
+.search-box input{
+  flex: 0.8;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-box button{
+  height: 32px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(165, 165, 165);
+  color: rgb(69, 68, 68);
+  transition: background-color 0.2s, color 0.2s;
+  margin-left: -25px;
+}
+
+.search-box button:hover{
+  background-color: rgb(69, 68, 68);
+  color: rgb(165, 165, 165);
+}
+
+.card{
+  background-color: rgb(58, 58, 58);
+  color : rgb(165, 165, 165);
+  padding: 10px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  margin: 5px;
+}
+h1{
+  margin-bottom: 0px;
+}
+.temp{
+  font-size: 3.0rem;
+  margin-top: 10px;
+}
+.emoji{
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
